@@ -10,4 +10,8 @@ export default defineConfig({
     openConsole: true,
     openDevtools: true,
   },
+  manifest: {
+    name: 'Browser Extension Starter',
+    description: 'Based on WXT browser project quick starter',
+  },
 })
