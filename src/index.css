@@ -121,3 +121,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+div[data-slot="dialog-overlay"]{
+  z-index: 999999;
+}
+div[role="dialog"] {
+  z-index: 999999;
+}
