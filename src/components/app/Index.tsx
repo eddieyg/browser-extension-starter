@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { store } from '@/lib/storage'
 import { cn } from '@/lib/utils'
@@ -7,6 +8,7 @@ import wxtLogo from '/wxt.svg'
 type Target = 'popup' | 'sidepanel'
 
 function App({ target }: { target: Target }) {
+  const { t } = useTranslation()
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -41,13 +43,13 @@ function App({ target }: { target: Target }) {
         <img src={wxtLogo} alt="" />
 
         <Button className="w-[180px]" onClick={handleUpdateCount}>
-          count is
-          {' '}
+          {t('App.count-is')}
+          :
           {count}
         </Button>
 
         <Button className="w-[180px]" onClick={handlePermissions}>
-          request permissions
+          {t('App.request_permissions')}
         </Button>
       </div>
     </>

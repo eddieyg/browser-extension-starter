@@ -5,7 +5,7 @@ export default defineBackground(() => {
   console.log('Hello background!', { id: browser.runtime.id })
 
   browser.runtime.onInstalled.addListener(() => {
-    browser.tabs.create({ url: 'https://www.google.com' })
+    // browser.tabs.create({ url: 'https://github.com/' })
     console.log('onInstalled')
   })
 

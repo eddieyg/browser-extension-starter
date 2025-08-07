@@ -1,0 +1,10 @@
+{
+  "App": {
+    "request_permissions": "Request permissions",
+    "count-is": "Current count",
+    "setting": "Setting",
+    "language": "Language",
+    "setting-saved-successfully": "Setting saved successfully",
+    "save": "Save"
+  }
+}

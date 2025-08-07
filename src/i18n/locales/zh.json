@@ -1,0 +1,10 @@
+{
+  "App": {
+    "request_permissions": "请求权限",
+    "count-is": "当前计数",
+    "language": "语言",
+    "save": "保存",
+    "setting": "设置",
+    "setting-saved-successfully": "设置成功保存"
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { CommandPalette } from '@/components/CommandPalette'
+import { CommandPalette } from '@/components/content/CommandPalette'
 import { Toaster } from '@/components/ui/sonner'
 import '@/index.css'
 
